@@ -1,9 +1,414 @@
 <% var
-pageTitle = "Toppage";
+        pageTitle = "Toppage";
 pageId = "index";
 pageUrl = "";
 pageDescription = "Awesome site";
 %>
 <% include ../_partial/_header %>
-
 <% include ../_partial/_footer %>
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body class="page-index">
+<header class="header-top  ">
+    <section class="nav-top">
+        <div class="nav-top__top">
+            <div class="logo">
+                <span class="logo-first">Appetit</span>
+                <span class="logo-second">Card</span>
+            </div>
+            <button class="btn btn-top">Get your card</button>
+            <button class="close-btn"></button>
+        </div>
+        <div class="nav-top__body">
+            <div class="nav-top__left-side">
+                <div class="menu-block menu-block__left menu-block_first">
+                    <h3 class="menu-block__title menu-block__title_left">restaurant by city</h3>
+                    <div class="menu-block__list-block">
+                        <ul class="menu-block__list">
+                            <li><a class="menu-block__link" href="#">Berlin</a></li>
+                            <li><a class="menu-block__link" href="#">Hamburg</a></li>
+                            <li><a class="menu-block__link" href="#">Munich(Munchen)</a></li>
+                            <li><a class="menu-block__link" href="#">Cologne(Koln)</a></li>
+                            <li><a class="menu-block__link" href="#">Frankfurt am Main</a></li>
+                            <li><a class="menu-block__link" href="#">Stuttgard</a></li>
+                            <li><a class="menu-block__link" href="#">Dusseldorf</a></li>
+                            <li><a class="menu-block__link" href="#">Essen</a></li>
+                            <li><a class="menu-block__link" href="#">Leipzig</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="menu-block menu-block__left">
+                    <h3 class="menu-block__title menu-block__title_left">restaurant by name</h3>
+                    <div class="menu-block__list-block">
+                        <ul class="menu-block__list">
+                            <li><a class="menu-block__link" href="#">ASK</a></li>
+                            <li><a class="menu-block__link" href="#">Azzuro</a></li>
+                            <li><a class="menu-block__link" href="#">Banana Tree</a></li>
+                            <li><a class="menu-block__link" href="#">Barcelona Tapas</a></li>
+                            <li><a class="menu-block__link" href="#">Belgo</a></li>
+                            <li><a class="menu-block__link" href="#">Bella Italia</a></li>
+                            <li><a class="menu-block__link" href="#">Byron</a></li>
+                            <li><a class="menu-block__link" href="#">Cafe Rouge</a></li>
+                            <li><a class="menu-block__link" href="#">Chino Latino</a></li>
+                            <li><a class="menu-block__link" href="#">Chiquito</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-top__right-side">
+                <div class="nav-top__menu">
+                    <div class="menu-block">
+                        <h3 class="menu-block__title">About us</h3>
+                        <ul class="menu-block__list">
+                            <li><a class="menu-block__link" href="#">Our company</a></li>
+                            <li><a class="menu-block__link" href="#">Customer testimonials</a></li>
+                            <li><a class="menu-block__link" href="#">Why we're different</a></li>
+                            <li><a class="menu-block__link" href="#">Our chosen charity</a></li>
+                            <li><a class="menu-block__link" href="#">Work for us</a></li>
+                        </ul>
+                    </div>
+                    <div class="menu-block">
+                        <h3 class="menu-block__title">How we can help?</h3>
+                        <ul class="menu-block__list">
+                            <li><a class="menu-block__link" href="#">Contact us</a></li>
+                            <li><a class="menu-block__link" href="#">FAQs</a></li>
+                            <li><a class="menu-block__link" href="#">Restaurants</a></li>
+                            <li><a class="menu-block__link" href="#">Opportunities</a></li>
+                            <li><a class="menu-block__link" href="#">For Businesses</a></li>
+                            <li><a class="menu-block__link" href="#">Sitemap</a></li>
+                        </ul>
+                    </div>
+                    <div class="menu-block">
+                        <h3 class="menu-block__title">Get started</h3>
+                        <ul class="menu-block__list">
+                            <li><a class="menu-block__link" href="#">How to use</a></li>
+                            <li><a class="menu-block__link" href="#">Buy an AppetitCard</a></li>
+                            <li><a class="menu-block__link" href="#">Buy an AppetitCard Gift</a></li>
+                            <li><a class="menu-block__link" href="#">UNIDAYS</a></li>
+                            <li><a class="menu-block__link" href="#">For Businesses</a></li>
+                            <li><a class="menu-block__link" href="#">Sitemap</a></li>
+                        </ul>
+                    </div>
+                    <div class="menu-block">
+                        <h3 class="menu-block__title">Stay involved</h3>
+                        <ul class="menu-block__list">
+                            <li><a class="menu-block__link" href="#">Newsletter Sign up</a></li>
+                            <li><a class="menu-block__link" href="#">Appetit blog</a></li>
+                            <li><a class="menu-block__link" href="#">Recommend</a></li>
+                            <li><a class="menu-block__link" href="#">Restaurants</a></li>
+                            <li><a class="menu-block__link" href="#">Restaurants Reviews</a></li>
+                            <li><a class="menu-block__link" href="#">AppetitCard+ Offer</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="nav-banner">
+                    <h2 class="nav-banner__title">Save Money. Eat Out.</h2>
+                    <h3 class="nav-banner__subtitle">$1 for 60 days. Includes tastecard+<sub>*</sub></h3>
+                    <button class="nav-banner__btn">try now</button>
+                    <p class="nav-banner__note">$1/60 days. Cancel trials anytime. Included tastecard+. Renew at
+                        $34.99(excluding
+                        tastecard+)</p>
+                </div>
+                <div class="nav-top__bottom">
+                    <div class="subscribe-block">
+
+                        <p class="subscribe-block__text">Subscribe to our newsletter to be the first to hear about
+                            exclusive
+                            offers and discounts</p>
+                        <form action="post">
+                            <input type="e-mail" class="subscribe-block__input" placeholder="E-mail Address">
+                        </form>
+                    </div>
+                    <div class="nav-top__links">
+                        <div class="social-links">
+                            <a class="social-link social-link_fb" href="#"> </a>
+                            <a class="social-link social-link_youtube" href="#"> </a>
+                            <a class="social-link social-link_twitter" href="#"> </a>
+                            <a class="social-link social-link_insta" href="#"> </a>
+                        </div>
+                        <div class="apps">
+                            <a class="apps__link" href="#"></a>
+                            <a class="apps__link apps__link_google" href="#"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="banner">
+        <div class="nav-top__top nav-top__top_banner">
+            <div class="logo">
+                <span class="logo-first">Appetit</span>
+                <span class="logo-second">Card</span>
+            </div>
+            <button class="btn btn-top">Get your card</button>
+            <button class="menu-btn"></button>
+        </div>
+        <h1 class="banner__title">Dine Smarter. Save Money</h1>
+        <div class="banner__sticker"><span class="banner__sticker-sum">$72</span><span class="banner__sticker-txt">per year</span>
+        </div>
+        <h4 class="banner__subtitle">Get an official 50% discount in 3400 Restaurants and Cafe Across Germany. It-s easy
+            as never before - just $72 per year</h4>
+        <div class="search-form">
+            <form action="" class="search-form__form">
+                <input class="search-form__input" type="text">
+                <select class="search-form__select" name="distance" id=""></select>
+                <button class="search-form__btn">Search</button>
+            </form>
+        </div>
+    </section>
+    <div class="page-container">
+        <section class="partners">
+            <h2 class="section-title">Start saving today at...</h2>
+            <div class="partners__logos">
+                <a class="partners-link" href="#">
+                    <div class="partners__logo partners__logo_1"></div>
+                </a>
+                <a class="partners-link" href="#">
+                    <div class="partners__logo partners__logo_2"></div>
+                </a>
+                <a class="partners-link" href="#">
+                    <div class="partners__logo partners__logo_3"></div>
+                </a>
+                <a class="partners-link" href="#">
+                    <div class="partners__logo partners__logo_4"></div>
+                </a>
+                <a class="partners-link" href="#">
+                    <div class="partners__logo partners__logo_5"></div>
+                </a>
+                <a class="partners-link" href="#">
+                    <div class="partners__logo partners__logo_6"></div>
+                </a>
+                <a class="partners-link" href="#">
+                    <div class="partners__logo partners__logo_7"></div>
+                </a>
+                <a class="partners-link" href="#">
+                    <div class="partners__logo partners__logo_8"></div>
+                </a>
+                <a class="partners-link" href="#">
+                    <div class="partners__logo partners__logo_9"></div>
+                </a>
+                <a class="partners-link" href="#">
+                    <div class="partners__logo partners__logo_10"></div>
+                </a>
+            </div>
+        </section>
+        <section class="using">
+            <h2 class="section-title">Using your AppetitCard is easy as 1, 2, 3...</h2>
+            <div class="using__block">
+
+                <div class="using__img">
+                </div>
+                <div class="using__texts">
+                    <h3 class="using__title">50% off yor total food bill!</h3>
+                    <p class="using__text">
+                        All dinner in a party can eat and receive a 50% discount on their food, even with just one
+                        AppetitCard member in the party.
+                        However, please do check with the individual restaurant for the maximum numbers permitted
+                        per AppetitCard booking.
+                    </p>
+                    <h3 class="using__title">2 meals for the price of 1!</h3>
+                    <p class="using__text">
+                        L2 meals for the price of 1 is available foe two people only and is across all courses
+                        ordered;
+                        the cheapest or equivalent dish of each course being free.
+                        Side dishes and extras are not included.
+                    </p>
+                    <button class="btn try-btn_using">try now</button>
+                </div>
+                <div class="using__step using__step_1">
+                    <div class="using__number using__number_1">1</div>
+                    <div class="using__step-text">Search for a restaraunt and choose where to dine</div>
+                </div>
+                <div class="using__step using__step_2">
+                    <div class="using__number using__number_2">2</div>
+                    <div class="using__step-text">Make an advance booking mentioning AppetitCard</div>
+                </div>
+                <div class="using_step using__step_3">
+                    <div class="using__number using__number_3">3</div>
+                    <div class="using__step-text">Show your AppetitCard and enjoy your meal!</div>
+                </div>
+
+            </div>
+        </section>
+        <section class="map">
+            <h2 class="section-title">Search Restaurant Nearby</h2>
+            <div class="map_img">
+                <div class="search-form search-form_map">
+                    <form action="" class="search-form__form">
+                        <input class="search-form__input" type="text" class="banner-input">
+                        <select class="search-form__select" name="distance" id=""></select>
+                        <button class="search-form__btn">Search</button>
+                    </form>
+                </div>
+            </div>
+            <button class="btn try-btn">Try now</button>
+        </section>
+        <section class="key">
+            <h2 class="section-title">The Full Key...</h2>
+            <ul class="key__list">
+                <li class="key__item">
+                    <div class="key__block">
+                        <div class="key__pic">2=1</div>
+                        <div class="key__txt">The restaurant offers AppetitCard-holders 2 for 1 meals (across all
+                            courses
+                            ordered
+                        </div>
+                    </div>
+                </li>
+                <li class="key__item">
+                    <div class="key__block">
+                        <div class="key__pic">NEW</div>
+                        <div class="key__txt">The restaurant has onnly joined AppetitCard in the last 30 days
+
+                        </div>
+                    </div>
+                </li>
+                <li class="key__item">
+                    <div class="key__block">
+                        <div class="key__pic key__pic_tel"></div>
+                        <div class="key__txt">
+                            You must telephone book in advance and mention AppetitCard
+                        </div>
+                    </div>
+                </li>
+                <li class="key__item">
+                    <div class="key__block">
+                        <div class="key__pic key_pic__cross">Fri</div>
+                        <div class="key__txt"> The AppetitCard is not available on Friday evenings
+                        </div>
+                    </div>
+                </li>
+                <li class="key__item">
+                    <div class="key__block">
+                        <div class="key__pic key__pic_cross">Dec</div>
+                        <div class="key__txt">The AppetitCard offer is not available during December
+                        </div>
+                    </div>
+                </li>
+                <li class="key__item">
+                    <div class="key__block">
+                        <div class="key__pic">50%</div>
+                        <div class="key__txt">The restaurant offers AppetitCard-holders 50% OFF the total food bill
+                        </div>
+                    </div>
+                </li>
+                <li class="key__item">
+                    <div class="key__block">
+                        <div class="key__pic key__pic_online"></div>
+                        <div class="key__txt">Online booking available for this restaurant
+                        </div>
+                    </div>
+                </li>
+                <li class="key__item">
+                    <div class="key__block">
+                        <div class="key__pic">x8</div>
+                        <div class="key__txt">Number denotes the maximum number of people per taste booking
+                        </div>
+                    </div>
+                </li>
+                <li class="key__item">
+                    <div class="key__block">
+                        <div class="key__pic key__pic_cross">SUT</div>
+                        <div class="key__txt">The AppetitCard offer is not available on Suturday evenings
+                        </div>
+                    </div>
+                </li>
+                <li class="key__item">
+                    <div class="key__block">
+                        <div class="key__pic key__pic_menu"></div>
+                        <div class="key__txt">The AppetitCard offer is available in December
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <button class="btn try-btn">Try now</button>
+        </section>
+    </div>
+    <footer class="page-footer">
+        <div class="page-footer__top">
+            <div class="logo logo_footer">
+                <span class="logo-first">Appetit</span>
+                <span class="logo-second">Card</span>
+            </div>
+            <div class="social-links social-links_footer">
+                <a class="social-link social-link_fb" href="#"> </a>
+                <a class="social-link social-link_youtube" href="#"> </a>
+                <a class="social-link social-link_twitter" href="#"> </a>
+                <a class="social-link social-link_insta" href="#"> </a>
+            </div>
+        </div>
+        <div class="page-footer__middle">
+
+            <div class="menu-block">
+                <h3 class="menu-block__title">About us</h3>
+                <ul class="menu-block__list">
+                    <li><a class="menu-block__link" href="#">Our company</a></li>
+                    <li><a class="menu-block__link" href="#">Customer testimonials</a></li>
+                    <li><a class="menu-block__link" href="#">Why we're different</a></li>
+                    <li><a class="menu-block__link" href="#">Our chosen charity</a></li>
+                    <li><a class="menu-block__link" href="#">Work for us</a></li>
+                </ul>
+            </div>
+            <div class="menu-block">
+                <h3 class="menu-block__title">How we can help?</h3>
+                <ul class="menu-block__list">
+                    <li><a class="menu-block__link" href="#">Contact us</a></li>
+                    <li><a class="menu-block__link" href="#">FAQs</a></li>
+                    <li><a class="menu-block__link" href="#">Restaurants</a></li>
+                    <li><a class="menu-block__link" href="#">Opportunities</a></li>
+                    <li><a class="menu-block__link" href="#">For Businesses</a></li>
+                    <li><a class="menu-block__link" href="#">Sitemap</a></li>
+                </ul>
+            </div>
+            <div class="menu-block">
+                <h3 class="menu-block__title">Get started</h3>
+                <ul class="menu-block__list">
+                    <li><a class="menu-block__link" href="#">How to use</a></li>
+                    <li><a class="menu-block__link" href="#">Buy an AppetitCard</a></li>
+                    <li><a class="menu-block__link" href="#">Buy an AppetitCard Gift</a></li>
+                    <li><a class="menu-block__link" href="#">UNIDAYS</a></li>
+                    <li><a class="menu-block__link" href="#">For Businesses</a></li>
+                    <li><a class="menu-block__link" href="#">Sitemap</a></li>
+                </ul>
+            </div>
+            <div class="menu-block">
+                <h3 class="menu-block__title">Stay involved</h3>
+                <ul class="menu-block__list">
+                    <li><a class="menu-block__link" href="#">Newsletter Sign up</a></li>
+                    <li><a class="menu-block__link" href="#">Appetit blog</a></li>
+                    <li><a class="menu-block__link" href="#">Recommend</a></li>
+                    <li><a class="menu-block__link" href="#">Restaurants</a></li>
+                    <li><a class="menu-block__link" href="#">Restaurants Reviews</a></li>
+                    <li><a class="menu-block__link" href="#">AppetitCard+ Offer</a></li>
+                </ul>
+            </div>
+            <div class="subscribe-block subscribe-block_footer">
+
+                <p class="subscribe-block__text">Subscribe to our newsletter to be the first to hear about
+                    exclusive
+                    offers and discounts</p>
+                <form action="post">
+                    <input type="e-mail" class="subscribe-block__input" placeholder="E-mail Address">
+                </form>
+            </div>
+        </div>
+        <div class="page-footer__bottom">
+            <div class="page-footer__copyright">
+                @2017-2018 AppetitCard. All Rights Reserved
+            </div>
+            <div class="apps apps_footer">
+                <a class="apps__link" href="#"></a>
+                <a class="apps__link apps__link_google" href="#"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>

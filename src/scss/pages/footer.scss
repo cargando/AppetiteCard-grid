@@ -1,0 +1,53 @@
+
+.page-footer {
+  margin-top: 30px;
+  background-color: $dark-green;
+  padding: 30px 55px;
+  color: $menu-text;
+
+
+  &__top {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    border-bottom: 1px solid $line;
+  }
+
+  &__middle {
+    display: grid;
+    grid-template-columns: 17% 17% 17% 17% 30%;
+    border-bottom: 1px solid $line;
+    padding: 40px;
+    //border: 1px solid yellow;
+
+  }
+
+  &__bottom {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-top: 40px;
+  }
+
+  &__copyright {
+    padding-left: 30px;
+    //width: 30%;
+    justify-self: left;
+  }
+}
+
+.subscribe-block_footer {
+  margin-left: 30px;
+  width: 100%;
+
+}
+
+.logo_footer {
+  justify-self: left;
+}
+
+.social-links_footer {
+
+}
+
+.apps_footer {
+
+}

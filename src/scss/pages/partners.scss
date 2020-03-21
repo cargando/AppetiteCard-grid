@@ -1,0 +1,56 @@
+
+.partners {
+  &__logos {
+    display: grid;
+    grid-template-columns: repeat(10, 9%);
+    grid-gap: 10px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 80px;
+  }
+
+  &__logo {
+    width: 6vw;
+    height: 6vw;
+    background-image: url(../img/partner1.png);
+    background-size: cover;
+
+  }
+
+  &__logo_2 {
+    background-image: url(../img/partner2.png);
+  }
+
+  &__logo_3 {
+    background-image: url(../img/partner3.png);
+  }
+
+  &__logo_4 {
+    background-image: url(../img/partner4.png);
+  }
+
+  &__logo_5 {
+    background-image: url(../img/partner5.png);
+  }
+
+  &__logo_6 {
+    background-image: url(../img/partner6.png);
+  }
+
+  &__logo_7 {
+    background-image: url(../img/partner7.png);
+  }
+
+  &__logo_8 {
+    background-image: url(../img/partner8.png);
+  }
+
+  &__logo_9 {
+    background-image: url(../img/partner9.png);
+  }
+
+  .partners__logo_10 {
+    background-image: url(../img/partner10.png);
+  }
+}
+

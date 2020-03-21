@@ -1,0 +1,59 @@
+.key {
+  &__list {
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    margin-bottom: 40px;
+  }
+
+  &__item {
+    padding: 35px;
+    box-sizing: border-box;
+    background-color: #fff;
+  }
+
+  &__block {
+    display: grid;
+    grid-template-columns: 20% 70%;
+  }
+
+  &__pic {
+    background-color: #0fae58;
+    box-sizing: border-box;
+    width: 60px;
+    height: 35px;
+    color: #f7f7f7;
+    padding: 7px 10px;
+    border-radius: 2px;
+    margin-right: 45px;
+    font-size: 16px;
+    font-weight: bold;
+    background-size: cover;
+
+    &_tel {
+      background-image: url(../img/tel.png);
+    }
+
+    &_online {
+      background-image: url(../img/online.png);
+    }
+
+    &_menu {
+      background-image: url(../img/menu.png);
+    }
+  }
+
+  &_pic__cross {
+
+  }
+
+  &__txt {
+    text-align: left;
+    font-size: 14px;
+    padding-left: 20px;
+    //width: 65%;
+  }
+}
